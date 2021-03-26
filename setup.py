@@ -1,14 +1,15 @@
 from distutils.core import setup
+
 setup(
   name = 'passgenpy',         # How you named your package folder (MyLib)
   packages = ['passgenpy'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.1.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A password generator written in Python 3.x',   # Give a short description about your library
   author = 'Pavlos Efstathiou',                   # Type in your name
   author_email = 'paulefstathiou@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/Pavlos-Efstathiou/Password-Generator/',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Pavlos-Efstathiou/Password-Generator/archive/v_01.tar.gz',    # I explain this later on
+  url = 'https://github.com/Pavlos-Efstathiou/Password-Generator/',
+  download_url = 'https://github.com/Pavlos-Efstathiou/Password-Generator/archive/refs/tags/v_011.tar.gz', 
   keywords = ['random', 'password', 'generator'],   # Keywords that define your package best
   install_requires=[],
   classifiers=[

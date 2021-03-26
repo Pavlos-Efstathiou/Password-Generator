@@ -1,6 +1,6 @@
 import random
     
-def genPass(length: int, password: str) -> str:
+def gen_pass(length: int, password: str) -> str:
     """Generates pseudo random password from a set of characters"""
     letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     symbols = "!@#$%^&*~_-+"
@@ -11,4 +11,4 @@ def genPass(length: int, password: str) -> str:
     return password
 
 if __name__ == "__main__":
-    genPass(1, "")
+    gen_pass(0, "")
