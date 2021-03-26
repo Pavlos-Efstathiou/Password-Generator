@@ -6,11 +6,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
   name = "passgenpy",
   packages = ["passgenpy"],
-  version = "0.1.15",
+  version = "0.1.16",
   license="MIT",      
   description="A password generator written in Python 3.x",   # Give a short description about your library
   long_description=long_descript,
-  # long_description_content_type="text/markdown",
+  long_description_content_type=" text/markdown",
   author="Pavlos Efstathiou",                 
   author_email="paulefstathiou@gmail.com",
   url="https://github.com/Pavlos-Efstathiou/Password-Generator/",

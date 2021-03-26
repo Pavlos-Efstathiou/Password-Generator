@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export PATH=/home/pavlos/.local/bin/:$PATH
 red='\e[1;31m%s\e[0m\n'
 green='\e[1;32m%s\e[0m\n'
 yellow='\e[1;33m%s\e[0m\n'
